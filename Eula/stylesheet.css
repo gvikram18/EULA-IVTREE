@@ -98,11 +98,21 @@ h1,h2,h3,h4,h5,h6 {
   clear: both;
 }
 
-#content {
+/*#content {
   margin: 0 32px 20px 32px;
   padding: 12px 8px 32px 8px;
   color: #333;
   overflow: auto;
+}*/
+#content {
+  align: center;
+  overflow-y: scroll;
+  height: 500px;
+  width: 60%;
+  border: 1px solid #DDD;
+  margin-left:18%;
+  padding: 10px;
+  color: #333;
 }
 
 #content h1,h2,h3,h4,h5,h6 {
