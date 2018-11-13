@@ -40,27 +40,29 @@ body {
 }
 
 #bannercenter {
-  padding: 24pt 2pt 14pt 2pt;
-  color: #107EC0;
-  vertical-align: middle;
+  padding: 30pt 2pt 5pt 2pt;
+  color: #8ecd4e;
+  vertical-align: middle
+  font-weight: 2px;
 }
 
 #bannerleft {
   text-align: left;
   float: left;
+  padding-top: 9px;
 }
 
-#languagesdiv {float: right; padding: 1em; font-size: 0.9em; color:gray; border-left:solid 1px #ccc;}
+#languagesdiv {float: right; padding: 1em; margin-top: 1em; font-size: 0.9em; color:gray;}
 #selectlanguage {padding: 1px; margin: 1px;} /* equal height as of the search button */
 #searchdiv {font-size: 0.9em;} /* eq. positioning as for the languages div */
 
 
 a {
-  color: #107EC0;
+  color: #054978;
 }
 
 a:visited {
- color: #107EC0;
+ color: #054978;
 }
 
 a:hover {
@@ -88,8 +90,8 @@ h1,h2,h3,h4,h5,h6 {
 
 #announce {
   height: 22pt;
-  margin: 0px 0px 5px 0px;
-  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 10px 10px;
   color: black;
   font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
   font-size:18pt;
@@ -109,8 +111,8 @@ h1,h2,h3,h4,h5,h6 {
   overflow-y: scroll;
   height: 500px;
   width: 60%;
-  border: 1px solid #DDD;
-  margin-left:18%;
+  border: 3px solid #054978;
+  margin-left:20%;
   padding: 10px;
   color: #333;
 }
@@ -465,7 +467,7 @@ td {
 #footera {
   margin: 20px 0px 0px 0px;
   padding: 8px 0px 12px 0px;
-  border-top: 2px solid #ccc;
+  border-top: 2px solid #054978;
   color:#333;
   font-size: 8pt;
   padding: 0 8px;
@@ -479,7 +481,6 @@ td {
 }
 
 #copyrighta p {
-  padding-left: 20px;
   line-height: 10pt;
   padding-bottom: 5px;
 }
@@ -505,7 +506,6 @@ td {
   float: right;
   text-align: right;
   width: 210px;
-  height: 100px;
 }
 
 #asf-logo {
@@ -549,6 +549,43 @@ input {
   width: 130px;
   border: 1px solid #C6CBDD;
   padding: 2px;
+}
+
+#bordera-bottom {
+  margin: 2px 0px 0px 0px;
+  padding: 2px 0px 0px 0px;
+  border-bottom: 2px solid #054978;
+  overflow: auto;
+  clear: both;
+  line-height: 10pt;
+}
+
+address { 
+    display: block;
+    font-style: italic;
+    float: left;
+    padding-top: 10px;
+    font-size: 15px;
+} 
+
+#style-1::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #8ecd4e;
+}
+
+#style-1::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #8ecd4e;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
 }
 
 /* definition lists */
