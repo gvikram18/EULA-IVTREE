@@ -588,6 +588,10 @@ address {
   background-color: #555;
 }
 
+#avoid-clicks{
+  pointer-events: none;
+}
+
 /* definition lists */
 dd {}
 dl {}
