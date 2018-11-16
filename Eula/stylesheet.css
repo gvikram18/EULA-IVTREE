@@ -31,6 +31,7 @@ body {
   color: #8ecd4e;
   vertical-align: middle
   font-weight: 2px;
+
 }
 
 #bannerleft {
@@ -102,6 +103,7 @@ h1,h2,h3,h4,h5,h6 {
   margin-left:25%;
   padding: 10px;
   color: #333;
+  font-size: 13px;
 }
 
 #content h1,h2,h3,h4,h5,h6 {
